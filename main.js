@@ -11,10 +11,10 @@ const client = new discord.Client();
 client.on('ready', message => {
   client.user.setPresence({
     game: {
-      name: 'スマホ'
+      name: 'テレビ'
     }
   });
-  client.user.setActivity("スマホ", {
+  client.user.setActivity("テレビ", {
     type: "WATCHING"
   })
   .then(console.log)
